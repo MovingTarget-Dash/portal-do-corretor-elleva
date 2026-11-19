@@ -60,16 +60,6 @@ window.IMOVEIS=[
   "dorm": 3
  },
  {
-  "codigo": 18769,
-  "tipo": "Casa",
-  "condominio": null,
-  "bairro": "Morada do Vale I",
-  "valor": 180000.0,
-  "valorAnterior": 240000.0,
-  "area": "70m²",
-  "dorm": 3
- },
- {
   "codigo": 13450,
   "tipo": "Casa",
   "condominio": "Di Gênova",
