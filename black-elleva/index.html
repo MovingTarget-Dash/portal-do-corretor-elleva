@@ -44,6 +44,12 @@
   .card figcaption{flex:1;margin:8px 2px 0;color:#c9ced6}
   .dl{display:flex;align-items:center;justify-content:center;gap:6px;margin-top:10px;min-height:44px;padding:10px;border-radius:8px;background:var(--gold);color:#1a1405;text-align:center;text-decoration:none;font-weight:700;font-size:14px}
   .dl:hover,.dl:focus-visible{filter:brightness(1.08);outline:none}
+  /* botão suspenso que acompanha a navegação: volta ao portal */
+  .voltar-portal{position:fixed;left:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:40;display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 18px;border-radius:999px;background:rgba(10,12,16,.92);border:1px solid var(--gold);color:#fff;font-weight:700;font-size:14px;text-decoration:none;box-shadow:0 6px 20px rgba(0,0,0,.55);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);transition:background .15s,color .15s}
+  .voltar-portal:hover,.voltar-portal:focus-visible{background:var(--gold);color:#1a1405;outline:none}
+  .wrap{padding-bottom:96px}
+  .vp-c{display:none}
+  @media(max-width:720px){.voltar-portal{padding:0 16px;font-size:13px}.vp-l{display:none}.vp-c{display:inline}}
   .topo{display:inline-block;margin-top:56px;color:#fff;font-size:13px;text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:5px}
   footer{margin-top:20px;color:var(--mut);font-size:12px;letter-spacing:.08em}
   /* exemplos: ~30% menores no desktop; no celular viram carrossel com cards grandes */
@@ -86,6 +92,7 @@
   <a class="topo" href="#tipos">↑ Voltar ao topo</a>
   <footer>Elleva Imóveis · Gravataí/RS</footer>
 </div>
+<a class="voltar-portal" href="../" aria-label="Voltar ao Portal do Corretor">← <span class="vp-l">Portal do Corretor</span><span class="vp-c">Portal</span></a>
 <script src="manifest.js"></script>
 <script>
 (function(){
