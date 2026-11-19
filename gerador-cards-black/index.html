@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Gerador de Cards Black Elleva</title>
+<link rel="stylesheet" href="fonts.css">
+<style>
+  :root{--bg:#0a0c10;--panel:#12151b;--line:#262b35;--tx:#e8eaee;--mut:#8b93a1;--gold:#e0b04a}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--tx);font-family:'Raleway',system-ui,sans-serif}
+  .wrap{display:grid;grid-template-columns:340px 1fr;gap:28px;max-width:1100px;margin:0 auto;padding:28px 16px}
+  h1{font-size:18px;margin:0 0 4px;letter-spacing:.04em}
+  h1 span{color:var(--gold)}
+  .sub{color:var(--mut);font-size:13px;margin:0 0 22px}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px}
+  label{display:block;font-size:12px;color:var(--mut);margin:14px 0 6px;letter-spacing:.06em;text-transform:uppercase}
+  select,input[type=text]{width:100%;padding:11px 12px;border-radius:8px;border:1px solid var(--line);background:#0d1015;color:var(--tx);font:inherit;font-size:15px}
+  button{margin-top:16px;width:100%;padding:12px;border-radius:8px;border:0;background:var(--gold);color:#1a1405;font:inherit;font-weight:700;font-size:15px;cursor:pointer}
+  button.sec{background:transparent;color:var(--tx);border:1px solid var(--line);font-weight:600}
+  button:disabled{opacity:.4;cursor:not-allowed}
+  .info{margin-top:16px;font-size:13px;line-height:1.7;color:var(--mut)}
+  .info b{color:var(--tx);font-weight:600}
+  .msg{margin-top:12px;font-size:13px;color:#f0b3a0}
+  .stage{display:flex;justify-content:center;align-items:flex-start}
+  canvas{width:100%;max-width:405px;height:auto;aspect-ratio:1080/1920;border-radius:6px;box-shadow:0 10px 40px #0008;background:#000}
+  @media(max-width:820px){.wrap{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div>
+    <a href="../" style="color:var(--mut);font-size:13px;text-decoration:none">← Portal do Corretor</a>
+    <h1 style="margin-top:10px">Cards <span>Black Elleva</span> 2026</h1>
+    <p class="sub">Stories 1080 × 1920 · Apartamento, Casa e Condomínio</p>
+    <div class="panel">
+      <label for="cod">Código do imóvel</label>
+      <select id="cod"></select>
+      <div class="info" id="info"></div>
+      <div class="msg" id="msg"></div>
+      <label for="foto">Foto do imóvel</label>
+      <input type="file" id="foto" accept="image/*">
+      <button id="dl">Baixar PNG</button>
+    </div>
+  </div>
+  <div class="stage"><canvas id="cv" width="1080" height="1920"></canvas></div>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
