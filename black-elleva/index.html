@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Black Elleva | Portal do Corretor</title>
+<link rel="stylesheet" href="../gerador-cards-black/fonts.css">
+<style>
+  :root{--bg:#0a0c10;--panel:#12151b;--line:#262b35;--edge:#9aa3b2;--tx:#e8eaee;--mut:#8b93a1;--gold:#e0b04a}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--tx);font-family:'Raleway',system-ui,sans-serif;min-height:100vh}
+  .wrap{max-width:960px;margin:0 auto;padding:40px 16px 56px}
+  .logo{display:block;height:56px;width:auto;margin:0 0 24px}
+  .rule{display:flex;align-items:center;margin:0 0 34px}
+  .rule b{flex:1;height:1px;background:linear-gradient(90deg,var(--gold),rgba(224,176,74,.35) 55%,rgba(224,176,74,0))}
+  h1{color:var(--gold);font-family:'Playfair Display',serif;font-style:italic;font-weight:500;font-size:clamp(36px,7vw,60px);margin:10px 0 8px;line-height:1.1}
+  .sub{color:var(--mut);font-size:16px;margin:0 0 28px;line-height:1.6}
+  h2.camp{font-size:clamp(18px,3vw,22px);font-weight:700;margin:0 0 22px;line-height:1.4}
+  .tipos{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 40px}
+  .tipos a{padding:12px 22px;border:1px solid var(--gold);border-radius:999px;color:#fff;text-decoration:none;font-weight:700;font-size:15px;transition:background .15s,color .15s}
+  .tipos a:hover,.tipos a:focus-visible{background:var(--gold);color:#1a1405;outline:none}
+  h3.sec{font-family:'Playfair Display',serif;font-style:italic;font-weight:500;font-size:clamp(26px,4.5vw,34px);color:var(--gold);margin:56px 0 6px;scroll-margin-top:20px}
+  h3.sec + .rule{margin:0 0 22px}
+  .exemplos,.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  figure{margin:0}
+  .thumb{position:relative;display:block;border:1px solid var(--edge);border-radius:10px;overflow:hidden;aspect-ratio:9/16;background:#000;transition:border-color .15s}
+  .thumb:hover,.thumb:focus-visible{border-color:var(--gold);outline:none}
+  .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+  figcaption{margin-top:8px;font-size:12px;color:var(--mut);line-height:1.45;word-break:break-word}
+  .ex{position:absolute;top:18px;left:-34px;width:130px;transform:rotate(-45deg);background:var(--gold);color:#1a1405;text-align:center;font-size:11px;font-weight:800;letter-spacing:.16em;padding:4px 0;text-transform:uppercase;box-shadow:0 2px 6px #0007}
+  .lista{display:flex;flex-direction:column;gap:18px}
+  .lista h4{margin:0 0 8px;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--mut);font-weight:600}
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chips a{max-width:100%;padding:8px 12px;border:1px solid var(--edge);border-radius:8px;font-size:14px;line-height:1.4;color:#c9ced6;text-decoration:none;font-variant-numeric:lining-nums;transition:border-color .15s,color .15s}
+  .chips a b{color:#fff;font-weight:700}
+  .chips a:hover b{color:var(--gold)}
+  .chips a:hover,.chips a:focus-visible{border-color:var(--gold);color:var(--gold);outline:none}
+  /* cada card = caixa única (imagem + legenda + Baixar), com folga entre as linhas, p/ ficar claro a qual imagem o botão pertence */
+  .grid{max-width:744px;gap:30px 16px}
+  .card{scroll-margin-top:20px;background:var(--panel);border:1px solid #3a4150;border-radius:12px;padding:8px;display:flex;flex-direction:column}
+  .card:target{border-color:var(--gold);box-shadow:0 0 0 2px rgba(224,176,74,.45)}
+  .card figcaption{flex:1;margin:8px 2px 0;color:#c9ced6}
+  .dl{display:flex;align-items:center;justify-content:center;gap:6px;margin-top:10px;min-height:44px;padding:10px;border-radius:8px;background:var(--gold);color:#1a1405;text-align:center;text-decoration:none;font-weight:700;font-size:14px}
+  .dl:hover,.dl:focus-visible{filter:brightness(1.08);outline:none}
+  .topo{display:inline-block;margin-top:56px;color:#fff;font-size:13px;text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:5px}
+  footer{margin-top:20px;color:var(--mut);font-size:12px;letter-spacing:.08em}
+  /* exemplos: ~30% menores no desktop; no celular viram carrossel com cards grandes */
+  .exemplos{max-width:672px}
+  .ex-tit{margin:0 0 8px;font-weight:300;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#b7bac2;text-align:center;white-space:nowrap}
+  /* visualizador do exemplo */
+  .lb{position:fixed;inset:0;z-index:50;background:rgba(5,6,9,.94);display:none;flex-direction:column;align-items:center;padding:14px 16px 18px}
+  .lb.on{display:flex}
+  .lb-bar{width:100%;max-width:960px;display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}
+  .lb button{background:var(--gold);color:#1a1405;border:0;border-radius:999px;padding:11px 22px;font:inherit;font-weight:700;font-size:15px;cursor:pointer}
+  .lb-nome{color:var(--mut);font-size:12px;text-align:right;word-break:break-all}
+  .lb-img{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;width:100%}
+  .lb-img img{max-width:100%;max-height:100%;object-fit:contain;border-radius:8px}
+  @media(max-width:720px){
+    .grid{grid-template-columns:repeat(2,1fr)}
+    .exemplos{max-width:none;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:16px;gap:14px;margin:0 -16px;padding:0 16px 8px;-webkit-overflow-scrolling:touch}
+    .exemplos figure{flex:0 0 64vw;max-width:280px;scroll-snap-align:start}
+    .ex-tit{font-size:12px;letter-spacing:.18em}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a href="../"><img class="logo" src="../assets/logo-elleva-branco.png" alt="Elleva Imóveis – Portal do Corretor"></a>
+  <div class="rule" aria-hidden="true"><b></b></div>
+  <h1>Portal do Corretor</h1>
+  <p class="sub">Ferramentas para baixar imagens. Exclusivo para corretores da Elleva Imóveis.</p>
+
+  <h2 class="camp">Baixe os cards da Campanha Black Elleva 2026 em formato 9x16 (para stories)</h2>
+  <nav class="tipos" id="tipos" aria-label="Tipos de imóvel"></nav>
+
+  <h3 class="sec" id="exemplos">Exemplos</h3><div class="rule" aria-hidden="true"><b></b></div>
+  <div class="exemplos" id="exemplos-grid"></div>
+
+  <h3 class="sec" id="lista">Lista</h3><div class="rule" aria-hidden="true"><b></b></div>
+  <div class="lista" id="lista-box"></div>
+
+  <div id="secoes"></div>
+
+  <a class="topo" href="#tipos">↑ Voltar ao topo</a>
+  <footer>Elleva Imóveis · Gravataí/RS</footer>
+</div>
+<script src="manifest.js"></script>
+<script>
+(function(){
+  const TIPOS=[['apartamento','Apartamento'],['casa','Casa'],['condominio','Condomínio'],['terreno','Terreno']];
+  const enc=s=>encodeURIComponent(s).replace(/%2F/g,'/');
+  const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const full=c=>`cards/${c.slug}/${enc(c.file)}`;
+  const thumb=c=>`thumbs/${c.slug}/${c.codigo}.jpg`;
+  const ribbon=c=>c.exemplo?'<span class="ex">Exemplo</span>':'';
+  // mesmo formato de preço dos cards: R$ 330 mil / R$ 349,9 mil / R$ 1,98 mi
+  const tn=(n,d)=>n.toFixed(d).replace(/\.?0+$/,'').replace('.',',');
+  const preco=v=>!v?'':(v>=1e6?'R$ '+tn(v/1e6,3)+' mi':'R$ '+tn(v/1e3,2)+' mil');
+  const rule='<div class="rule" aria-hidden="true"><b></b></div>';
+  const by=t=>window.CARDS.filter(c=>c.slug===t).sort((a,b)=>(a.valor||0)-(b.valor||0));
+
+  // grupos (botões, lista e seções): Condomínio é dividido em dois: até R$ 869 mil (18785) e a partir de R$ 1 mi (16962) = "ALTO"
+  const GRUPOS=[];
+  TIPOS.forEach(([s,n])=>{
+    const l=by(s); if(!l.length) return;
+    if(s==='condominio'){
+      GRUPOS.push([s,n,l.filter(c=>c.valor<1e6)]);
+      GRUPOS.push(['condominio-alto','Condomínio - ALTO',l.filter(c=>c.valor>=1e6)]);
+    } else GRUPOS.push([s,n,l]);
+  });
+  const G=GRUPOS.filter(g=>g[2].length);
+
+  document.getElementById('tipos').innerHTML=G.map(([id,n])=>`<a href="#${id}">${n}</a>`).join('');
+
+  // exemplos: 1 por tipo (prefere um card já validado)
+  document.getElementById('exemplos-grid').innerHTML=TIPOS.map(([s,n])=>{
+    const l=by(s); const c=l.find(x=>!x.exemplo)||l[0]; if(!c) return '';
+    const tit=s==='terreno'?'Terreno | Condomínio':n;
+    return `<figure><div class="ex-tit">${tit}</div><a class="thumb lb-open" href="${full(c)}" data-nome="${esc(c.file)}"><img src="${thumb(c)}" alt="${esc(c.file)}" loading="lazy">${ribbon(c)}</a><figcaption>${esc(c.file)}</figcaption></figure>`;
+  }).join('');
+
+  // visualizador com botão Voltar (também fecha com ESC, toque fora ou gesto de voltar do celular)
+  const lb=document.createElement('div'); lb.className='lb'; lb.setAttribute('role','dialog'); lb.setAttribute('aria-modal','true');
+  lb.innerHTML='<div class="lb-bar"><button type="button" id="lb-voltar">← Voltar</button><span class="lb-nome" id="lb-nome"></span></div><div class="lb-img"><img id="lb-img" alt=""></div>';
+  document.body.appendChild(lb);
+  let aberto=false;
+  function abrir(a){ document.getElementById('lb-img').src=a.getAttribute('href'); document.getElementById('lb-nome').textContent=a.dataset.nome||''; lb.classList.add('on'); document.body.style.overflow='hidden'; aberto=true; history.pushState({lb:1},''); document.getElementById('lb-voltar').focus(); }
+  function fechar(fromPop){ if(!aberto) return; lb.classList.remove('on'); document.body.style.overflow=''; document.getElementById('lb-img').removeAttribute('src'); aberto=false; if(!fromPop && history.state && history.state.lb) history.back(); }
+  document.getElementById('exemplos-grid').addEventListener('click',e=>{ const a=e.target.closest('.lb-open'); if(a){ e.preventDefault(); abrir(a); } });
+  document.getElementById('lb-voltar').addEventListener('click',()=>fechar());
+  lb.addEventListener('click',e=>{ if(e.target===lb||e.target.classList.contains('lb-img')) fechar(); });
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape') fechar(); });
+  window.addEventListener('popstate',()=>fechar(true));
+
+  // lista de códigos
+  document.getElementById('lista-box').innerHTML=G.map(([id,n,l])=>
+    `<div><h4>${n}</h4><div class="chips">${l.map(c=>`<a href="#c${c.codigo}"><b>${c.codigo}</b> · ${esc(c.nome)} · ${preco(c.valor)}</a>`).join('')}</div></div>`
+  ).join('');
+
+  // seções por tipo, do menor ao maior preço "por"
+  document.getElementById('secoes').innerHTML=G.map(([id,n,l])=>{
+    return `<h3 class="sec" id="${id}">${n}</h3>${rule}<div class="grid">`+l.map(c=>
+      `<figure class="card" id="c${c.codigo}"><a class="thumb" href="${full(c)}" target="_blank" rel="noopener"><img src="${thumb(c)}" alt="${esc(c.file)}" loading="lazy">${ribbon(c)}</a><figcaption>${c.codigo} · ${esc(c.nome)}</figcaption><a class="dl" href="${full(c)}" download="${esc(c.file)}">↓ Baixar</a></figure>`
+    ).join('')+'</div>';
+  }).join('');
+})();
+</script>
+</body>
+</html>
