@@ -1,5 +1,14 @@
 window.CARDS=[
  {
+  "codigo": 19121,
+  "slug": "apartamento",
+  "tipo": "Apartamento",
+  "file": "19121_AP_Solar das Palmeiras_Black.jpg",
+  "nome": "Solar das Palmeiras",
+  "valor": 259900.0,
+  "exemplo": false
+ },
+ {
   "codigo": 19041,
   "slug": "apartamento",
   "tipo": "Apartamento",
@@ -45,21 +54,21 @@ window.CARDS=[
   "exemplo": false
  },
  {
-  "codigo": 16964,
-  "slug": "apartamento",
-  "tipo": "Apartamento",
-  "file": "16964_AP_Grann Palazzio_Black.jpg",
-  "nome": "Grann Palazzio",
-  "valor": 899000.0,
-  "exemplo": false
- },
- {
   "codigo": 19052,
   "slug": "casa",
   "tipo": "Casa",
   "file": "19052_Casa_Santa Cruz_Black.jpg",
   "nome": "Santa Cruz",
   "valor": 287900.0,
+  "exemplo": false
+ },
+ {
+  "codigo": 18790,
+  "slug": "casa",
+  "tipo": "Casa",
+  "file": "18790_Casa_Moradas do Sobrado_Black.jpg",
+  "nome": "Moradas do Sobrado",
+  "valor": 299000.0,
   "exemplo": false
  },
  {
@@ -153,12 +162,12 @@ window.CARDS=[
   "exemplo": false
  },
  {
-  "codigo": 18275,
+  "codigo": 18999,
   "slug": "condominio",
   "tipo": "Condomínio",
-  "file": "18275_Cond_Primavera_Black.jpg",
-  "nome": "Primavera",
-  "valor": 690000.0,
+  "file": "18999_Cond_Quintas Das Corticeiras_Black.jpg",
+  "nome": "Quintas Das Corticeiras",
+  "valor": 699000.0,
   "exemplo": false
  },
  {
@@ -167,25 +176,7 @@ window.CARDS=[
   "tipo": "Condomínio",
   "file": "18276_Cond_Primavera_Black.jpg",
   "nome": "Primavera",
-  "valor": 690000.0,
-  "exemplo": false
- },
- {
-  "codigo": 13450,
-  "slug": "condominio",
-  "tipo": "Condomínio",
-  "file": "13450_Cond_Di Gênova_Black.jpg",
-  "nome": "Di Gênova",
-  "valor": 699000.0,
-  "exemplo": false
- },
- {
-  "codigo": 18999,
-  "slug": "condominio",
-  "tipo": "Condomínio",
-  "file": "18999_Cond_Quintas Das Corticeiras_Black.jpg",
-  "nome": "Quintas Das Corticeiras",
-  "valor": 699000.0,
+  "valor": 700000.0,
   "exemplo": false
  },
  {
@@ -240,6 +231,24 @@ window.CARDS=[
   "file": "18967_Cond_Paragem dos Verdes Campos_Black.jpg",
   "nome": "Paragem dos Verdes Campos",
   "valor": 1980000.0,
+  "exemplo": false
+ },
+ {
+  "codigo": 15699,
+  "slug": "condominio",
+  "tipo": "Condomínio",
+  "file": "15699_Cond_Cyrela Landscape_Black.jpg",
+  "nome": "Cyrela Landscape",
+  "valor": 1990000.0,
+  "exemplo": false
+ },
+ {
+  "codigo": 15707,
+  "slug": "condominio",
+  "tipo": "Condomínio",
+  "file": "15707_Cond_Cyrela Landscape_Black.jpg",
+  "nome": "Cyrela Landscape",
+  "valor": 2190000.0,
   "exemplo": false
  },
  {

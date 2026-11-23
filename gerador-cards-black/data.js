@@ -50,33 +50,23 @@ window.IMOVEIS=[
   "dorm": 3
  },
  {
-  "codigo": 16964,
-  "tipo": "Apartamento",
-  "condominio": "Grann Palazzio",
+  "codigo": 18470,
+  "tipo": "Casa",
+  "condominio": "Aldeia Parque",
   "bairro": null,
-  "valor": 899000.0,
-  "valorAnterior": 915000.0,
-  "area": "103m²",
+  "valor": 449000.0,
+  "valorAnterior": 520000.0,
+  "area": "79m²",
   "dorm": 3
  },
  {
-  "codigo": 13450,
+  "codigo": 15502,
   "tipo": "Casa",
-  "condominio": "Di Gênova",
+  "condominio": "Alphaville",
   "bairro": null,
-  "valor": 699000.0,
-  "valorAnterior": 799000.0,
-  "area": "150m²",
-  "dorm": 3
- },
- {
-  "codigo": 18967,
-  "tipo": "Casa",
-  "condominio": "Paragem dos Verdes Campos",
-  "bairro": null,
-  "valor": 1980000.0,
-  "valorAnterior": 2200000.0,
-  "area": "196m²",
+  "valor": 2390000.0,
+  "valorAnterior": 2540000.0,
+  "area": "220m²",
   "dorm": 3
  },
  {
@@ -90,13 +80,23 @@ window.IMOVEIS=[
   "dorm": 3
  },
  {
-  "codigo": 18943,
+  "codigo": 18785,
   "tipo": "Casa",
-  "condominio": null,
-  "bairro": "Reserva Dom Feliciano",
-  "valor": 590000.0,
-  "valorAnterior": 620000.0,
-  "area": "132m²",
+  "condominio": "Central Square",
+  "bairro": null,
+  "valor": 869000.0,
+  "valorAnterior": 950000.0,
+  "area": "148,9m²",
+  "dorm": 3
+ },
+ {
+  "codigo": 16536,
+  "tipo": "Casa",
+  "condominio": "Cyrela Landscape",
+  "bairro": null,
+  "valor": 2299000.0,
+  "valorAnterior": 2490000.0,
+  "area": "340m²",
   "dorm": 3
  },
  {
@@ -120,43 +120,33 @@ window.IMOVEIS=[
   "dorm": 3
  },
  {
-  "codigo": 18231,
+  "codigo": 15748,
   "tipo": "Casa",
-  "condominio": null,
-  "bairro": "Dom Feliciano",
-  "valor": 405000.0,
-  "valorAnterior": 475000.0,
-  "area": "80m²",
-  "dorm": 3
- },
- {
-  "codigo": 18275,
-  "tipo": "Casa",
-  "condominio": "Primavera",
+  "condominio": "Cyrela Landscape",
   "bairro": null,
-  "valor": 690000.0,
-  "valorAnterior": 730000.0,
-  "area": "122m²",
+  "valor": 1840000.0,
+  "valorAnterior": 1890000.0,
+  "area": "197,99m²",
   "dorm": 3
  },
  {
-  "codigo": 18276,
+  "codigo": 18810,
   "tipo": "Casa",
-  "condominio": "Primavera",
+  "condominio": "Luis XVI",
   "bairro": null,
-  "valor": 690000.0,
-  "valorAnterior": 730000.0,
-  "area": "122m²",
+  "valor": 479000.0,
+  "valorAnterior": 520000.0,
+  "area": "146m²",
   "dorm": 3
  },
  {
-  "codigo": 15303,
+  "codigo": 18967,
   "tipo": "Casa",
-  "condominio": null,
-  "bairro": "Oriçó",
-  "valor": 499000.0,
-  "valorAnterior": 659000.0,
-  "area": "115m²",
+  "condominio": "Paragem dos Verdes Campos",
+  "bairro": null,
+  "valor": 1980000.0,
+  "valorAnterior": 2200000.0,
+  "area": "196m²",
   "dorm": 3
  },
  {
@@ -170,43 +160,13 @@ window.IMOVEIS=[
   "dorm": 3
  },
  {
-  "codigo": 15502,
+  "codigo": 18999,
   "tipo": "Casa",
-  "condominio": "Alphaville",
+  "condominio": "Quintas Das Corticeiras",
   "bairro": null,
-  "valor": 2390000.0,
-  "valorAnterior": 2540000.0,
-  "area": "220m²",
-  "dorm": 3
- },
- {
-  "codigo": 18734,
-  "tipo": "Casa",
-  "condominio": null,
-  "bairro": "Reserva Bela Vista",
-  "valor": 599000.0,
-  "valorAnterior": 629000.0,
-  "area": "93m²",
-  "dorm": 3
- },
- {
-  "codigo": 18785,
-  "tipo": "Casa",
-  "condominio": "Central Square",
-  "bairro": null,
-  "valor": 869000.0,
-  "valorAnterior": 950000.0,
-  "area": "148,9m²",
-  "dorm": 3
- },
- {
-  "codigo": 16336,
-  "tipo": "Casa",
-  "condominio": null,
-  "bairro": "Gardenville",
-  "valor": 599900.0,
-  "valorAnterior": 630000.0,
-  "area": "103m²",
+  "valor": 699000.0,
+  "valorAnterior": 720000.0,
+  "area": "127m²",
   "dorm": 3
  },
  {
@@ -220,13 +180,63 @@ window.IMOVEIS=[
   "dorm": 4
  },
  {
-  "codigo": 18999,
+  "codigo": 16962,
   "tipo": "Casa",
-  "condominio": "Quintas Das Corticeiras",
-  "bairro": null,
-  "valor": 699000.0,
-  "valorAnterior": 720000.0,
-  "area": "127m²",
+  "condominio": "Terras Alpha",
+  "bairro": "São Vicente",
+  "valor": 1450000.0,
+  "valorAnterior": null,
+  "area": "171m²",
+  "dorm": 3
+ },
+ {
+  "codigo": 18943,
+  "tipo": "Casa",
+  "condominio": null,
+  "bairro": "Reserva Dom Feliciano",
+  "valor": 590000.0,
+  "valorAnterior": 620000.0,
+  "area": "132m²",
+  "dorm": 3
+ },
+ {
+  "codigo": 18231,
+  "tipo": "Casa",
+  "condominio": null,
+  "bairro": "Dom Feliciano",
+  "valor": 405000.0,
+  "valorAnterior": 475000.0,
+  "area": "80m²",
+  "dorm": 3
+ },
+ {
+  "codigo": 15303,
+  "tipo": "Casa",
+  "condominio": null,
+  "bairro": "Oriçó",
+  "valor": 499000.0,
+  "valorAnterior": 659000.0,
+  "area": "115m²",
+  "dorm": 3
+ },
+ {
+  "codigo": 18734,
+  "tipo": "Casa",
+  "condominio": null,
+  "bairro": "Reserva Bela Vista",
+  "valor": 599000.0,
+  "valorAnterior": 629000.0,
+  "area": "93m²",
+  "dorm": 3
+ },
+ {
+  "codigo": 16336,
+  "tipo": "Casa",
+  "condominio": null,
+  "bairro": "Gardenville",
+  "valor": 599900.0,
+  "valorAnterior": 630000.0,
+  "area": "103m²",
   "dorm": 3
  },
  {
@@ -260,46 +270,6 @@ window.IMOVEIS=[
   "dorm": 3
  },
  {
-  "codigo": 18810,
-  "tipo": "Casa",
-  "condominio": "Luis XVI",
-  "bairro": null,
-  "valor": 479000.0,
-  "valorAnterior": 520000.0,
-  "area": "146m²",
-  "dorm": 3
- },
- {
-  "codigo": 18470,
-  "tipo": "Casa",
-  "condominio": "Aldeia Parque",
-  "bairro": null,
-  "valor": 449000.0,
-  "valorAnterior": 520000.0,
-  "area": "79m²",
-  "dorm": 3
- },
- {
-  "codigo": 15748,
-  "tipo": "Casa",
-  "condominio": "Cyrela Landscape",
-  "bairro": null,
-  "valor": 1840000.0,
-  "valorAnterior": 1890000.0,
-  "area": "197,99m²",
-  "dorm": 3
- },
- {
-  "codigo": 16536,
-  "tipo": "Casa",
-  "condominio": "Cyrela Landscape",
-  "bairro": null,
-  "valor": 2299000.0,
-  "valorAnterior": 2490000.0,
-  "area": "340m²",
-  "dorm": 3
- },
- {
   "codigo": 19047,
   "tipo": "Casa",
   "condominio": null,
@@ -307,16 +277,6 @@ window.IMOVEIS=[
   "valor": 410000.0,
   "valorAnterior": 450000.0,
   "area": "120m²",
-  "dorm": 3
- },
- {
-  "codigo": 16962,
-  "tipo": "Casa",
-  "condominio": "Terras Alpha",
-  "bairro": "São Vicente",
-  "valor": 1450000.0,
-  "valorAnterior": null,
-  "area": "171m²",
   "dorm": 3
  },
  {
@@ -358,5 +318,55 @@ window.IMOVEIS=[
   "valorAnterior": 389000.0,
   "area": "261,15m²",
   "dorm": null
+ },
+ {
+  "codigo": 18790,
+  "tipo": "Casa",
+  "condominio": null,
+  "bairro": "Moradas do Sobrado",
+  "valor": 299000.0,
+  "valorAnterior": 349000.0,
+  "area": "89m²",
+  "dorm": 2
+ },
+ {
+  "codigo": 15707,
+  "tipo": "Casa",
+  "condominio": "Cyrela Landscape",
+  "bairro": null,
+  "valor": 2190000.0,
+  "valorAnterior": 2390000.0,
+  "area": "245,07m²",
+  "dorm": 3
+ },
+ {
+  "codigo": 15699,
+  "tipo": "Casa",
+  "condominio": "Cyrela Landscape",
+  "bairro": null,
+  "valor": 1990000.0,
+  "valorAnterior": 2290000.0,
+  "area": "226,52m²",
+  "dorm": 3
+ },
+ {
+  "codigo": 19121,
+  "tipo": "Apartamento",
+  "condominio": "Solar das Palmeiras",
+  "bairro": null,
+  "valor": 259900.0,
+  "valorAnterior": 264000.0,
+  "area": "56m²",
+  "dorm": 2
+ },
+ {
+  "codigo": 18276,
+  "tipo": "Casa",
+  "condominio": "Primavera",
+  "bairro": null,
+  "valor": 700000.0,
+  "valorAnterior": 730000.0,
+  "area": "122m²",
+  "dorm": 3
  }
 ];
