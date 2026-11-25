@@ -20,16 +20,6 @@ window.IMOVEIS=[
   "dorm": 2
  },
  {
-  "codigo": 19041,
-  "tipo": "Apartamento",
-  "condominio": "Residencial Tarumã",
-  "bairro": null,
-  "valor": 279990.0,
-  "valorAnterior": 299900.0,
-  "area": "72,94m²",
-  "dorm": 2
- },
- {
   "codigo": 18356,
   "tipo": "Apartamento",
   "condominio": "Fioravante",
@@ -240,16 +230,6 @@ window.IMOVEIS=[
   "dorm": 3
  },
  {
-  "codigo": 19052,
-  "tipo": "Casa",
-  "condominio": null,
-  "bairro": "Santa Cruz",
-  "valor": 287900.0,
-  "valorAnterior": 295000.0,
-  "area": "56,87m²",
-  "dorm": 2
- },
- {
   "codigo": 14983,
   "tipo": "Casa",
   "condominio": null,
@@ -367,6 +347,56 @@ window.IMOVEIS=[
   "valor": 700000.0,
   "valorAnterior": 730000.0,
   "area": "122m²",
+  "dorm": 3
+ },
+ {
+  "codigo": 18938,
+  "tipo": "Casa",
+  "condominio": null,
+  "bairro": "Santa Cruz",
+  "valor": 249000.0,
+  "valorAnterior": 270000.0,
+  "area": "75,72m²",
+  "dorm": 2
+ },
+ {
+  "codigo": 19040,
+  "tipo": "Casa",
+  "condominio": "Reserva da Aldeia",
+  "bairro": null,
+  "valor": 2590000.0,
+  "valorAnterior": 2750000.0,
+  "area": "299,48m²",
+  "dorm": 3
+ },
+ {
+  "codigo": 16314,
+  "tipo": "Casa",
+  "condominio": "Paragem dos Verdes Campos",
+  "bairro": null,
+  "valor": 2190000.0,
+  "valorAnterior": 2480000.0,
+  "area": "265m²",
+  "dorm": 3
+ },
+ {
+  "codigo": 16976,
+  "tipo": "Casa",
+  "condominio": "Terras Alpha",
+  "bairro": null,
+  "valor": 1420000.0,
+  "valorAnterior": 1450000.0,
+  "area": "157m²",
+  "dorm": 3
+ },
+ {
+  "codigo": 19056,
+  "tipo": "Casa",
+  "condominio": null,
+  "bairro": "Moradas do Sobrado",
+  "valor": 399000.0,
+  "valorAnterior": 420000.0,
+  "area": "100m²",
   "dorm": 3
  }
 ];

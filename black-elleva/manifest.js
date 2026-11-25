@@ -9,15 +9,6 @@ window.CARDS=[
   "exemplo": false
  },
  {
-  "codigo": 19041,
-  "slug": "apartamento",
-  "tipo": "Apartamento",
-  "file": "19041_AP_Residencial Tarumã_Black.jpg",
-  "nome": "Residencial Tarumã",
-  "valor": 279990.0,
-  "exemplo": false
- },
- {
   "codigo": 17148,
   "slug": "apartamento",
   "tipo": "Apartamento",
@@ -54,12 +45,12 @@ window.CARDS=[
   "exemplo": false
  },
  {
-  "codigo": 19052,
+  "codigo": 18938,
   "slug": "casa",
   "tipo": "Casa",
-  "file": "19052_Casa_Santa Cruz_Black.jpg",
+  "file": "18938_Casa_Santa Cruz_Black.jpg",
   "nome": "Santa Cruz",
-  "valor": 287900.0,
+  "valor": 249000.0,
   "exemplo": false
  },
  {
@@ -69,6 +60,15 @@ window.CARDS=[
   "file": "18790_Casa_Moradas do Sobrado_Black.jpg",
   "nome": "Moradas do Sobrado",
   "valor": 299000.0,
+  "exemplo": false
+ },
+ {
+  "codigo": 19056,
+  "slug": "casa",
+  "tipo": "Casa",
+  "file": "19056_Casa_Moradas do Sobrado_Black.jpg",
+  "nome": "Moradas do Sobrado",
+  "valor": 399000.0,
   "exemplo": false
  },
  {
@@ -198,6 +198,15 @@ window.CARDS=[
   "exemplo": false
  },
  {
+  "codigo": 16976,
+  "slug": "condominio",
+  "tipo": "Condomínio",
+  "file": "16976_Cond_Terras Alpha_Black.jpg",
+  "nome": "Terras Alpha",
+  "valor": 1420000.0,
+  "exemplo": false
+ },
+ {
   "codigo": 16962,
   "slug": "condominio",
   "tipo": "Condomínio",
@@ -252,6 +261,15 @@ window.CARDS=[
   "exemplo": false
  },
  {
+  "codigo": 16314,
+  "slug": "condominio",
+  "tipo": "Condomínio",
+  "file": "16314_Cond_Paragem dos Verdes Campos_Black.jpg",
+  "nome": "Paragem dos Verdes Campos",
+  "valor": 2190000.0,
+  "exemplo": false
+ },
+ {
   "codigo": 18535,
   "slug": "condominio",
   "tipo": "Condomínio",
@@ -285,6 +303,15 @@ window.CARDS=[
   "file": "15288_Cond_Cyrela Landscape_Black.jpg",
   "nome": "Cyrela Landscape",
   "valor": 2490000.0,
+  "exemplo": false
+ },
+ {
+  "codigo": 19040,
+  "slug": "condominio",
+  "tipo": "Condomínio",
+  "file": "19040_Cond_Reserva da Aldeia_Black.jpg",
+  "nome": "Reserva da Aldeia",
+  "valor": 2590000.0,
   "exemplo": false
  },
  {
